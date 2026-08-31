@@ -38,4 +38,4 @@ Maintainers review for correctness, security, scope, tests, documentation, compa
 
 ## License and contributor agreement
 
-No repository license has been selected. Do not submit code or content unless you have the right to contribute it. Once a license is chosen, contributions will be subject to its terms unless maintainers publish a different contributor agreement.
+This repository is licensed under [Apache License 2.0](LICENSE). Do not submit code or content unless you have the right to contribute it. Unless you explicitly state otherwise in writing, contributions intentionally submitted for inclusion are subject to the license terms.

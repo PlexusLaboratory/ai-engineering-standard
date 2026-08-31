@@ -26,7 +26,7 @@ The central policy, [INSTRUCTIONS.md](INSTRUCTIONS.md), turns broad quality goal
 2. Read the contribution, security, and conduct policies below when they apply.
 3. Keep temporary agent artifacts in `temp/`; do not commit them.
 4. Use the issue and pull-request templates in `.github/` when this directory becomes a GitHub repository.
-5. Replace the placeholder governance, contact, and license decisions with project-owner-approved details before public release.
+5. Replace the placeholder governance and contact decisions with project-owner-approved details before public release.
 
 ## Repository map
 
@@ -63,11 +63,10 @@ Both language versions are intended to express the same policy. If a translation
 
 This template deliberately does **not** invent legally or operationally significant facts. Before publishing, project owners should add:
 
-- a license in `LICENSE`;
 - a private security-reporting contact or enabled GitHub private vulnerability reporting;
 - named maintainers and a review/approval policy, if different from the defaults;
 - a funding file, code owners, CI workflows, release process, and dependency automation only when they are genuinely applicable.
 
 ## License
 
-No license has been selected yet. Until a `LICENSE` file is added by the copyright holder, reuse rights are not granted by this repository.
+Licensed under the [Apache License 2.0](LICENSE). It permits use, modification, and distribution under its terms, including preservation of required notices and its patent provisions.
