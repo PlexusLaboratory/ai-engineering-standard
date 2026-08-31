@@ -6,7 +6,7 @@
   <a href="README.md">English</a> · <a href="README.ru.md">Русский</a>
 </p>
 
-# AI-Assisted Engineering Standard
+# AI Engineering Standard
 
 A model-agnostic operating standard for safe, focused, maintainable, and verifiable engineering work. It is designed for AI agents and human contributors working in the same repository.
 

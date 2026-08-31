@@ -25,4 +25,8 @@
     <circle cx="1015" cy="190" r="7"/><circle cx="1230" cy="250" r="7"/>
   </g>
   <rect x="370" y="246" width="860" height="2" fill="url(#line)"/>
+  <g fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="800" y="225" font-size="58" font-weight="700" letter-spacing="1">AI Engineering Standard</text>
+    <text x="800" y="286" fill="#bae6fd" font-size="20" font-weight="500" letter-spacing="5">SAFE · CLEAR · VERIFIABLE</text>
+  </g>
 </svg>
