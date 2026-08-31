@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-label="Abstract engineering standards banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081225"/>
+      <stop offset="0.52" stop-color="#102a4c"/>
+      <stop offset="1" stop-color="#073a3f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#5eead4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#93c5fd" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <circle cx="250" cy="115" r="130" fill="#38bdf8" opacity="0.16" filter="url(#blur)"/>
+  <circle cx="1325" cy="380" r="180" fill="#2dd4bf" opacity="0.13" filter="url(#blur)"/>
+  <g fill="none" stroke="#93c5fd" stroke-opacity="0.28" stroke-width="2">
+    <path d="M-60 330C210 180 365 470 625 310S1050 120 1660 250"/>
+    <path d="M-20 400C225 250 430 505 700 370s450-215 920-55"/>
+    <path d="M65 112c155 95 260 36 390 100s216 93 347 10 267-95 424 15 202 47 332-8"/>
+  </g>
+  <g fill="#dbeafe">
+    <circle cx="390" cy="350" r="7"/><circle cx="700" cy="310" r="7"/>
+    <circle cx="1015" cy="190" r="7"/><circle cx="1230" cy="250" r="7"/>
+  </g>
+  <rect x="370" y="246" width="860" height="2" fill="url(#line)"/>
+</svg>

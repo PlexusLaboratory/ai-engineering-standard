@@ -1,0 +1,58 @@
+name: Сообщение об ошибке
+description: Сообщить о воспроизводимой проблеме на русском языке
+title: "[Ошибка]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за сообщение. Не добавляйте секреты, приватные данные и детали уязвимостей. Для безопасности используйте SECURITY.ru.md.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Что произошло?
+      description: Опишите фактическое поведение и его последствия.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Укажите минимальную надёжную последовательность шагов.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое поведение
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия, коммит или дата
+      placeholder: Например, v1.2.3 или abc1234
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Среда
+      description: ОС, runtime, браузер, режим развёртывания и важная конфигурация без чувствительных данных.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Логи, скриншоты или дополнительный контекст
+      description: Удалите учётные данные, персональные сведения, приватные URL и production-записи.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Чек-лист
+      options:
+        - label: Я проверил существующие issue и удалил чувствительные сведения.
+          required: true
+        - label: Это не сообщение об уязвимости.
+          required: true

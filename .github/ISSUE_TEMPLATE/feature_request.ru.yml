@@ -1,0 +1,41 @@
+name: Предложение функции
+description: Предложить сфокусированное улучшение на русском языке
+title: "[Функция]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Сначала опишите проблему, а не только решение. Не добавляйте чувствительные детали безопасности: для них есть SECURITY.ru.md.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Проблема или возможность
+      description: Кто затронут и что сейчас невозможно сделать?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Желаемый результат
+      description: Опишите наблюдаемые критерии успеха.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемый подход (необязательно)
+      description: Опишите компромиссы, альтернативы, совместимость и влияние на миграции, если они есть.
+  - type: textarea
+    id: context
+    attributes:
+      label: Дополнительный контекст
+      description: Ссылки, макеты, примеры, ограничения или заметки по реализации. Удалите конфиденциальные сведения.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Чек-лист
+      options:
+        - label: Я проверил существующие issue, и запрос относится к целям проекта.
+          required: true
+        - label: Я понимаю, что мейнтейнеры могут выбрать более простую альтернативу или отклонить запрос.
+          required: true

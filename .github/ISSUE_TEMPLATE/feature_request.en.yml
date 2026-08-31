@@ -1,0 +1,41 @@
+name: Feature request
+description: Propose a focused improvement in English
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem before prescribing a solution. Do not include security-sensitive details; see SECURITY.md for those reports.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Who is affected, and what cannot they do today?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe observable success criteria.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach (optional)
+      description: Explain trade-offs, alternatives considered, compatibility, and migration impact where relevant.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, mockups, examples, constraints, or implementation notes. Remove confidential information.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this request is within the project’s scope.
+          required: true
+        - label: I understand that maintainers may choose a simpler alternative or decline the request.
+          required: true

@@ -1,0 +1,6 @@
+# Copy this file to .github/CODEOWNERS only after replacing placeholders
+# with real GitHub accounts or teams and confirming the review policy.
+#
+# Example:
+# * @organization/core-maintainers
+# /INSTRUCTIONS.md @organization/security-maintainers
